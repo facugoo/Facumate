@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Funciones Lineales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Funciones Lineales</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Ingrese su función lineal</h2>
+            <input type="text" id="input-function" placeholder="Por ejemplo: 2x+3">
+            <button onclick="calcular()">Calcular</button>
+        </section>
+        <section id="output-section">
+            <h2>Resultados:</h2>
+            <p id="output-root">Raíz: </p>
+            <p id="output-y-intercept">Ordenada al Origen: </p>
+            <p id="output-slope">Pendiente: </p>
+            <p id="output-direction">Dirección: </p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
